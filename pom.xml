@@ -6,12 +6,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>mx.chux.cs.pzl.strings</groupId>
-    <artifactId>is-palindrome</artifactId>
+    <artifactId>is-anagram</artifactId>
     <version>1.0.0</version>
 
-    <name>is-palindrome</name>
-    <description>pzl-is-palindrome</description>
-    <url>http://pi4.chux.net:9999/jenkins/job/CHUX/job/CompSci/job/puzzles/job/is-palindrome/</url>
+    <name>is-anagram</name>
+    <description>pzl-is-anagram</description>
+    <url>http://pi4.chux.net:9999/jenkins/job/CHUX/job/CompSci/job/puzzles/job/is-anagram/</url>
 
     <organization>
         <name>chux</name>

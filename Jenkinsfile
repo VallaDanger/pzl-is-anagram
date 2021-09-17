@@ -30,7 +30,7 @@ pipeline {
                 git poll: false,
                     branch: "${GIT_LOCAL_BRANCH}",
                     credentialsId: 'GIT_SSH',
-                    url: 'ssh://git@pi4.chux.net:3322/gerrit/pzl-is-palindrome.git'
+                    url: 'ssh://git@pi4.chux.net:3322/gerrit/pzl-is-anagram.git'
                  
             }
                 
@@ -120,7 +120,7 @@ pipeline {
                         [
                             $class: 'StringParameterValue', 
                             name: 'GIT_REPOSITORY', 
-                            value: 'pzl-is-palindrome'
+                            value: 'pzl-is-anagram'
                         ],
                         [
                             $class: 'StringParameterValue', 
@@ -138,7 +138,7 @@ pipeline {
                         [
                             $class: 'StringParameterValue', 
                             name: 'GIT_REPOSITORY', 
-                            value: 'pzl-is-palindrome'
+                            value: 'pzl-is-anagram'
                         ],
                         [
                             $class: 'StringParameterValue', 
