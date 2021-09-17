@@ -3,10 +3,6 @@ package mx.chux.cs.pzl.strings;
 import mx.chux.cs.pzl.PuzzleSolution;
 
 public class IsAnagram implements PuzzleSolution<Boolean> {
-
-	public static void main(String[] args) {
-		System.out.println(IsAnagram.strings("abc", "bca").optimalSolution());
-	}
 	
 	public static IsAnagram strings(final String first, final String second) {
 		return new IsAnagram(first, second);
